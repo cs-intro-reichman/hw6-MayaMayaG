@@ -30,7 +30,6 @@ public class Runigram {
 		display(grayScaled(image));
 		display(image);
 		display(grayScaled(image));
-		display(scaled(image, 800, 300));
 		print(grayScaled(image));
 		
 	}
