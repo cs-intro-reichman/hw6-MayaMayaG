@@ -11,9 +11,9 @@ public class Editor2 {
 
 	public static void main (String[] args){
 		Color[][] image = Instush.read(args[0]);
-		int width = Integer.parseInt(args[1]);
-		int height = Integer.parseInt(args[2]);
-		Instush.display(Instush.scaled(image, width, height));
+		int width = Runigram.parseInt(args[1]);
+		int height = Runigram.parseInt(args[2]);
+		Runigram.display(Runigram.scaled(image, width, height));
 		//// This function is similar to the main function of Editor1.java			
 	}
 }
