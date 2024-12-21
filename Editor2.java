@@ -10,7 +10,10 @@ import java.awt.Color;
 public class Editor2 {
 
 	public static void main (String[] args){
-		//// Replace this comment with your code.
+		Color[][] image = Instush.read(args[0]);
+		int width = Integer.parseInt(args[1]);
+		int height = Integer.parseInt(args[2]);
+		Instush.display(Instush.scaled(image, width, height));
 		//// This function is similar to the main function of Editor1.java			
 	}
 }
