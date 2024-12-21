@@ -10,10 +10,9 @@ import java.awt.Color;
 public class Editor2 {
 
 	public static void main (String[] args){
-		Color[][] image = Instush.read(args[0]);
-		int width = Runigram.parseInt(args[1]);
-		int height = Runigram.parseInt(args[2]);
-		Runigram.display(Runigram.scaled(image, width, height));
-		//// This function is similar to the main function of Editor1.java			
+		Color[][] image = Runigram.read(args[0]);
+		int width = Integer.parseInt(args[1]);
+		int height = Integer.parseInt(args[2]);
+		Runigram.display(Runigram.scaled(image, width, height));			
 	}
 }
